@@ -774,3 +774,96 @@ header .song_side .popular_artists .item li img {
   height: 100%;
   border-radius: 50%;
 }
+
+@media(max-width:425px){
+
+  body {
+    background: #0b1320;
+  }
+  header .menu_side{
+    display: none;
+  }
+
+  header .song_side nav ul{
+    display: none;
+  }
+
+  header .song_side nav .search{
+    width: 300px;
+  }
+
+  header .song_side nav .user img {
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+  }
+
+  header .song_side nav .search .search_results .card {
+    background: rgb(197, 201, 219);
+  }
+  
+  header .song_side nav .search .search_results .card .content {
+    color: #111727;
+  }
+
+
+  header .song_side .content .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .song_side .content .buttons button {
+    width: 100%;
+    margin-top: 20px;
+    
+  }
+
+  header .song_side{
+    background: #111727;
+    width: 100%;
+  }
+
+  header .master_play{
+    padding-bottom: 30px;
+  }
+  header .master_play .wave{
+    display: none;
+  }
+
+  header .master_play .icon{
+    padding: 20%;
+    
+  }
+ 
+  header .master_play .bar .dot::before{
+    display: none;
+  }
+
+  header .master_play .bar input{
+    display: none;
+  }
+  header .master_play .bar .dot{
+    display: none;
+  }
+  header .master_play span{
+    display: none;
+  }
+
+  .vol i{
+    display: none;
+  }
+
+  header .master_play .vol input{
+    display: none;
+  }
+
+  header .master_play h5 {
+     left: 0;
+     color: white;
+     position: fixed;
+     margin-left: 50px;
+     margin-top: 90px;
+     width: 100%;
+  }
+
+}
